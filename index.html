@@ -1,15 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio Rohan Phaff</title>
-    <link rel="stylesheet" href="../style.css">   
+    <title>Homepagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="Foto/rohan.png">
 </head>
 <body>
-   <p>Het HBO level past bij mij omdat:</p>
-   <ul>
-       <li>Ik een zelfstandig persoon ben</li>
-       <li>Goed mijn best doe</li>
-       <li>Veel motivatie heb voor in dit geval een ICT opleiding</li>
-   </ul>
+  <div class="sidenav">
+    <a href="index.html">Home</a>
+    <a href="profilepage.html">Profile</a>
+    <a href="dashbord.html">Dashbord</a>
+    <a href="fqna.html">FAQ</a>
+  </div>
+      
+      <div class="main">
+   <img src="Foto/rohanphaff2.png" alt="De foto kon niet geladen worden" class="rohanphaff">
+        <ul>
+            <li>School: HZ University of Applied Science</li>
+            <li>Education: HBO-ICT</li>
+            <li>What does my future look like? I will become a game programmer.</li>
+        </ul>
+   <h3 class="studieprogramma">The HBO level suits me, because I am very independant and come here with much motivation after the last couple of boring years</h3>
+   <h3>The studyprogram suits me, because I am very interested in creating games and websites</h3>
 </body>
 </html>
+
+<style>
+   body {
+    font-family: "Lato", sans-serif;
+
+}
+.sidenav {
+  height: 100%;
+  width: 14%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #020230;
+  overflow-x: hidden;
+  padding-top: 2%;
+  border: solid;
+  border-width: 3%;
+}
+body{
+    background-image: url("Foto/1.png"); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #10103d;
+    background-attachment:center;
+    background-size: 100%, 100%;
+}
+ul{
+  margin-top: 5%;
+}
+li {
+    color:ghostwhite;
+    margin-top: 3%;
+}
+h3 {
+    color:ghostwhite;
+    font-size: 100%;
+}
+.sidenav a {
+  padding: 15% 4% 4% 20%;
+  text-decoration: none;
+  font-size: 180%;
+  color: #818181;
+  display: block;
+}
+.rohanphaff {
+  width: 32%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 16%; 
+  font-size: 170%; 
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.studieprogramma {
+ margin-top:8%;
+}
+</style>
+
+<script>
+   
+</script>
