@@ -9,17 +9,71 @@
         </style>
     </head>
     <body>
-      <div class="sidenav">
-        <a href="index.html">Home</a>
-        <a href="profilepage.html">Profile</a>
-        <a href="dashbord.html">Dashbord</a>
-        <a href="fqna.html">FAQ</a>
-      </div>
+      <ul class="ul">
+        <li class="li"><a href="index.html">Home</a></li>
+        <li class="li"><a href="profilepage.html">Profile</a></li>
+        <li class="li"><a href="dashbord.html" class="active">Dashbord</a></li>
+        <li class="li"><a href="fqna.html">FAQ</a></li>
+      </ul>
+      <footer>
+        <p>Creator: Rohan Phaff</p>
+        <p><a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a></p>
+      </footer>
     </body>
 </html>
 
 <style>
-  
+ .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(23, 38, 56);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  position: -webkit-sticky;
+}
+footer {
+  text-align: center;
+  margin-top: 5%;
+  font-family: courier;
+  font-size: 120%;
+}
+.li {
+  display: inline;
+  float: left;
+  font-size: 140%;
+  border-right: 1px solid #bbb;
+  font-family:Arial;
+}
+li:last-child {
+  border-right: none;
+}
+a {
+  display: block;
+  padding: 8px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body {
+  background-image: url("Foto/background.jpg");
+  background-repeat: repeat;
+  background-position:inherit;
+  background-size: cover;
+}
+li a:hover {
+  background-color: rgb(7, 32, 146);
+}
+.active {
+  background-color: #0f3668;
+}
 </style>
           
           
