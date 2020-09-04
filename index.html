@@ -6,93 +6,99 @@
     <link rel="icon" type="image/png" href="Foto/rohan.png">
 </head>
 <body>
-  <div class="sidenav">
-    <a href="index.html">Home</a>
-    <a href="profilepage.html">Profile</a>
-    <a href="dashbord.html">Dashbord</a>
-    <a href="fqna.html">FAQ</a>
-  </div>
-      
-      <div class="main">
-   <img src="Foto/rohanphaff2.png" alt="De foto kon niet geladen worden" class="rohanphaff">
-        <ul>
-            <li>School: HZ University of Applied Science</li>
-            <li>Education: HBO-ICT</li>
-            <li>What does my future look like? I will become a game programmer.</li>
-        </ul>
-   <h3 class="studieprogramma">The HBO level suits me, because I am very independant and come here with much motivation after the last couple of boring years</h3>
-   <h3>The studyprogram suits me, because I am very interested in creating games and websites</h3>
-</body>
+  <ul class="ul">
+    <li class="li"><a href="index.html" class="active">Home</a></li>
+    <li class="li"><a href="profilepage.html">Profile</a></li>
+    <li class="li"><a href="dashbord.html">Dashbord</a></li>
+    <li class="li"><a href="fqna.html">FAQ</a></li>
+  </ul>
+  <h1>Rohan Phaff</h1>
+  <ul class="ul3">
+    <li class="li3"><img src="Foto/Rohan Phaff.png" style="width: 40%; border-style: groove; border-color:rgb(23, 38, 56); border-radius: 15%;"></li>
+    <ul class="ul2">
+      <li class="li2">School: HZ University of Applied Science</li>
+      <li class="li2">Education: HBO-ICT</li>
+      <li class="li2">What does my future look like? I will become a game programmer</li>
+    </ul>
+  </ul>
+  <h2>The HBO level suits me, because I am a independant student and come here with much motivation after the last couple of boring years on high-school</h2>
+  <h2>The studyprogram suits me, because I am very interested in creating games and websites</h2>
+  </body>
 </html>
 
 <style>
-   body {
-    font-family: "Lato", sans-serif;
-
-}
-.sidenav {
-  height: 100%;
-  width: 14%;
+  .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(23, 38, 56);
   position: fixed;
-  z-index: 1;
   top: 0;
+  width: 100%;
   left: 0;
-  background-color: #020230;
-  overflow-x: hidden;
-  padding-top: 2%;
-  border: solid;
-  border-width: 3%;
+  position: -webkit-sticky;
 }
-body{
-    background-image: url("Foto/1.png"); 
-    background-repeat: no-repeat;
-    background-position: top;
-    background-color: #10103d;
-    background-attachment:center;
-    background-size: 100%, 100%;
-}
-ul{
+h2 {
+  font-family: arial;
   margin-top: 5%;
 }
-li {
-    color:ghostwhite;
-    margin-top: 3%;
+
+h1 {
+  font-size: 500%;
+  font-family: arial;
+  margin-top: 6%;
+  text-align: center;
 }
-h3 {
-    color:ghostwhite;
-    font-size: 100%;
+.li {
+  display: inline;
+  float: left;
+  font-size: 140%;
+  border-right: 1px solid #bbb;
+  font-family:Arial;
 }
-.sidenav a {
-  padding: 15% 4% 4% 20%;
-  text-decoration: none;
-  font-size: 180%;
-  color: #818181;
-  display: block;
-}
-.rohanphaff {
-  width: 32%;
+.li2 {
+  font-size: 200%;
+  font-family: arial;
   margin-top: 2%;
-  margin-left: 1%;
+}
+.li3 {
+  float: right;
+  margin-right: -50%;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.ul2 {
+  list-style-type: none;
 }
-
-.main {
-  margin-left: 16%; 
-  font-size: 170%; 
+.ul3 {
+  list-style-type:none;
+  margin-top: 10%;
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+li:last-child {
+  border-right: none;
 }
-.studieprogramma {
- margin-top:8%;
+a {
+  display: block;
+  padding: 8px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body {
+  background-image: url("Foto/background.jpg");
+  background-repeat: repeat;
+  background-position:inherit;
+  background-size: cover;
+}
+li a:hover {
+  background-color: rgb(7, 32, 146);
+}
+.active {
+  background-color: #0f3668;
 }
 </style>
-
-<script>
-   
-</script>
+    
