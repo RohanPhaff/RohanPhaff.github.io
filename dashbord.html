@@ -12,7 +12,138 @@
         <li class="navigatie-li"><a href="dashbord.html" class="active">Dashbord</a></li>
         <li class="navigatie-li"><a href="fqna.html">FAQ</a></li>
       </ul>
-      <footer>
+      <h2 style="margin-top:7%; font-size: 200%; font-family:arial; text-align: center;">How the upcoming year looks like for Rohan Phaff</h2>
+      <table class="first-row">
+        <tr>
+          <th>Quartile</th>
+          <th>Course</th>
+          <th>EC</th>
+          <th>Exam</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <th rowspan="3">1.</th>
+          <th>Programma and Career Orientation</th>
+          <th>2,5 EC</th>
+          <th>Assessment exam</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Computer Science Basics</th>
+          <th>7,5 EC</th>
+          <th>Written exam</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Programming Basics</th>
+          <th>5 EC</th>
+          <th>Case study exam</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th rowspan="3">2.</th>
+          <th rowspan="2">Object Oriented Programming</th>
+          <th rowspan="2">10 EC</th>
+          <th>Case study</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Project</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Professional Skills 1</th>
+          <th>2,5 EC</th>
+          <th>Portfolio exam</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th rowspan="7">3.</th>
+          <th rowspan="2">Framework Project 1</th>
+          <th rowspan="2">5 EC</th>
+          <th>Portfolio exam 1</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Portfolio exam 2</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Framework Development 1</th>
+          <th>5 EC</th>
+          <th>Case study</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Professional Working Environment</th>
+          <th>2,5 EC</th>
+          <th>Assessment</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th rowspan="3">Professional Skills 2</th>
+          <th rowspan="3">2,5 EC</th>
+          <th>Portfolio exam</th>
+          <th></th>
+          <tr>
+            <th>Written exam 1</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th>Written exam 2</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th rowspan="5">4.</th>
+            <th>Framework Project 2</th>
+            <th>5 EC</th>
+            <th>Portfolio exam</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th>Framework Development 2</th>
+            <th>5 EC</th>
+            <th>Portfolio exam</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th rowspan="3">Porfessional Skills 3</th>
+            <th rowspan="3">2,5 EC</th>
+            <th>Portfolio exam</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th>Written exam 1</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th>Written exam 2</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th rowspan="2">Whenever</th>
+            <th>HZ Personality</th>
+            <th>2,5 EC</th>
+            <th>Portfolio</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th>IT Personality</th>
+            <th>2,5 EC</th>
+            <th>Portfolio</th>
+            <th></th>
+          </tr>
+      </table>
+      <hr class="black-line">
+      <ul>
+        <li class="linkjes"><a href="https://learn.hz.nl/my/" style="width: 60%;">Learn: Here you can find my courses.</a></li>
+        <li class="linkjes"><a href=""></a></li>
+        <li class="linkjes"><a href=""></a></li>
+        <li class="linkjes"><a href=""></a></li>
+        <li class="linkjes"><a href=""></a></li>
+        <li class="linkjes"><a href=""></a></li>
+      </ul>
+      <footer style="margin-top: 120%;">
         <p>Creator: Rohan Phaff</p>
         <p><a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a></p>
       </footer>
@@ -20,6 +151,22 @@
 </html>
 
 <style>
+  .linkjes {
+
+  }
+  .black-line {
+    padding: 0.1%;
+    background-color:rgb(23, 38, 56);
+    width: 85%;
+    margin-top: 12%;
+  }
+  .first-row {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-top: 6%;
+    margin-left: 12.5%;
+  }
  .navigatie-ul {
   list-style-type: none;
   margin: 0;
@@ -31,6 +178,11 @@
   width: 100%;
   left: 0;
   position: -webkit-sticky;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 footer {
   text-align: center;
@@ -45,14 +197,14 @@ footer {
   border-right: 1px solid #bbb;
   font-family:Arial;
 }
-li:last-child {
+.navigatie-li:last-child {
   border-right: none;
 }
-a {
+.navigatie-li a {
   display: block;
   padding: 8px;
 }
-li a {
+.navigatie-li a {
   display: block;
   color: white;
   text-align: center;
@@ -65,7 +217,7 @@ body {
   background-position:inherit;
   background-size: cover;
 }
-li a:hover {
+.navigatie-li a:hover {
   background-color: rgb(7, 32, 146);
 }
 .active {
